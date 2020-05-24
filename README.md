@@ -27,7 +27,7 @@ Option | Details | Required
 -f  | Path and name MS Access file to extract | Yes
 
 ## Known issues
-1. Does not handle spatial objects (e.g., shapefiles). As a consequence, tables containing spatial object columns will throw an error. 
+1. Spatial objects (e.g., shapefiles) will be corrupted on export to CSV. This will not throw an error, but prior to importing to most applications, you will need to manually open (i.e., in a spreadsheet) any csv files from tables that contain spatial objects and delete the sparial column(s).
 
 
 
