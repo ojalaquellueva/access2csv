@@ -13,6 +13,13 @@ Extract a Microsoft Access database file (X.mdb or X.accdb) to one or more CSV f
 ```
 access2csv.sh [-i] [-f pathAndAccessFileName] 
 ```
+* The above assumes `access2csv` is located in `~/bin` or `/usr/local/bin` and your PATH modified accordingly. If not, just copy this file to the same location as the Access file and run as follows:
+
+```
+./access2csv.sh [-i] [-f pathAndAccessFileName] 
+``` 
+
+#### Options
 
 Option | Details | Required
 --- | --- | ---
